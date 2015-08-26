@@ -31,5 +31,5 @@ def get_beverage_comparison():
 
 
 if __name__ == '__main__':
-    # Runs the application from the command line
+    # Runs the application from the command line.
     application.run()
