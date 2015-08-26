@@ -1,6 +1,8 @@
 #!/usr/bin/python
 
 from flask import Flask
+
+
 application = Flask(__name__)
 
 
@@ -27,5 +29,7 @@ def get_beverage_comparison():
     # Combination of beverages
     return 'Comparison of some beverages'
 
+
 if __name__ == '__main__':
+    # Runs the application from the command line
     application.run()
